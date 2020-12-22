@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: demo
+  router:
+    static-resources:
+      assets:
+        enabled: true
+        mapping: "/public/**"
+        paths: "classpath:public"
